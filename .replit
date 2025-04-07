@@ -1,0 +1,7 @@
+modules = ["nodejs-23"]
+run = "npx expo start"
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "npx expo start"]
